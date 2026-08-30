@@ -38,6 +38,39 @@ ul.temas li::before{content:"";position:absolute;left:0;top:24px;width:9px;heigh
 .cross a{white-space:nowrap}
 footer{background:var(--bg2);color:var(--soft);padding:36px 24px;text-align:center;font-family:'Poppins',Arial,sans-serif;font-size:12px;line-height:2;border-top:1px solid var(--rule)}
 footer a{color:var(--acc);text-decoration:none}
+</style>
+<style>
+/* ==== Temario sesion a sesion del libro CCO ==== */
+.tem-grid{display:grid;grid-template-columns:1.55fr 1fr;gap:26px;margin-top:8px}
+@media(max-width:820px){.tem-grid{grid-template-columns:1fr}}
+.tem-h{font-family:'Poppins',Arial,sans-serif;font-size:12px;font-weight:600;
+  letter-spacing:.24em;text-transform:uppercase;color:var(--accB);margin:0 0 16px}
+.tem-sem{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+.tem-sem li{display:flex;gap:12px;align-items:flex-start;background:rgba(255,255,255,.035);
+  border:1px solid rgba(195,181,146,.20);border-radius:10px;padding:13px 16px;
+  font-size:14px;line-height:1.6;color:var(--ink)}
+.tw{flex:none;font-family:'Poppins',Arial,sans-serif;font-weight:700;font-size:11px;
+  letter-spacing:.08em;color:#1A1206;background:var(--accB);border-radius:6px;
+  padding:3px 8px;margin-top:2px}
+.tem-st{display:block;font-family:'Poppins',Arial,sans-serif;font-weight:600;
+  font-size:14.5px;color:var(--title);margin-bottom:6px}
+.tem-sub{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:5px}
+.tem-sub li2,.tem-sub li{display:block;font-size:13px;line-height:1.55;color:var(--soft);
+  padding-left:14px;position:relative;background:none;border:none;border-radius:0}
+.tem-sub li:before{content:"\2013";position:absolute;left:0;color:var(--accB)}
+.tem-lado{display:flex;flex-direction:column;gap:14px}
+.tem-cap{background:linear-gradient(160deg,rgba(229,201,122,.15),rgba(184,147,61,.06));
+  border:1px solid rgba(229,201,122,.40);border-radius:12px;padding:16px 18px}
+.tem-cap-k{font-family:'Poppins',Arial,sans-serif;font-size:10.5px;font-weight:700;
+  letter-spacing:.22em;text-transform:uppercase;color:var(--accB);margin-bottom:7px}
+.tem-cap p{font-size:13.5px;line-height:1.65;color:var(--ink);margin:0}
+.tem-meta{background:rgba(255,255,255,.035);border:1px solid rgba(228,220,200,.10);
+  border-radius:10px;padding:13px 15px;font-size:13.5px;line-height:1.65;color:var(--soft)}
+.tem-meta b{display:block;font-family:'Poppins',Arial,sans-serif;font-size:10.5px;
+  font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);margin-bottom:5px}
+.tem-meta ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.tem-meta li{padding-left:14px;position:relative}
+.tem-meta li:before{content:"\00b7";position:absolute;left:1px;color:var(--accB);font-weight:700}
 </style></head><body>
 
 <header class="hero">
@@ -56,9 +89,13 @@ footer a{color:var(--acc);text-decoration:none}
 
 <section class="sec" id="temario"><div class="wrap">
  <div class="kicker">Contenido del programa</div>
- <h2 class="sec-title">Qué dominarás.</h2>
- <p class="sec-sub">Sesiones en vivo con práctica aplicada.</p>
- <ul class="temas"><li>Cultura crediticia</li><li>Ética y conducta</li><li>Gobierno corporativo y RAF</li><li>Decisión ejecutiva y taller</li></ul>
+ <h2 class="sec-title">Qué dominarás, sesión por sesión.</h2>
+ <p class="sec-sub">Construir y sostener una cultura crediticia robusta; dominar la ética del crédito, el gobierno corporativo (BCBS Principles), la administración del Risk Appetite Framework y las habilidades de decisión ejecutiva bajo presión.</p>
+ <div class="tem-grid">
+  <div><h3 class="tem-h">Sesiones</h3>
+   <ol class="tem-sem"><li><span class="tw">S1</span><span><span class="tem-st">Cultura crediticia</span><ul class="tem-sub"><li>Qué es, cómo se mide y cómo se construye; tone from the top.</li></ul></span></li><li><span class="tw">S2</span><span><span class="tem-st">Ética y conducta</span><ul class="tem-sub"><li>Dilemas éticos del crédito, conflictos de interés y conducta.</li></ul></span></li><li><span class="tw">S3</span><span><span class="tem-st">Gobierno corporativo y RAF</span><ul class="tem-sub"><li>BCBS Principles, tres líneas de defensa y Risk Appetite Framework.</li></ul></span></li><li><span class="tw">S4</span><span><span class="tem-st">Decisión ejecutiva y taller</span><ul class="tem-sub"><li>Sesgos, decisión bajo incertidumbre y comunicación de riesgo; caso.</li></ul></span></li></ol></div>
+  <aside class="tem-lado"><div class="tem-meta"><b>&iquest;Para qui&eacute;n?</b><ul><li>CCO / CRO y alta dirección de crédito y riesgo.</li><li>Líderes que forman cultura y deciden bajo presión.</li><li>Miembros de comités y consejeros.</li><li>RH / talento de áreas de riesgo.</li></ul></div><div class="tem-meta"><b>Por qu&eacute; importa</b>La cultura se come a la estrategia en el desayuno. La mayoría de los blowups de crédito no fueron fallas de modelo, fueron fallas de cultura y de decisión. Este módulo forma el criterio y la ética que ningún modelo reemplaza.</div></aside>
+ </div>
  <div class="ficha">
  <div class="f"><div class="n">4</div><div class="l">Sesiones en vivo</div></div>
  <div class="f"><div class="n">10 h</div><div class="l">Horas totales</div></div>
